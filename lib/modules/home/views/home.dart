@@ -1,7 +1,7 @@
-import 'package:cts_poc/modules/auth/controller/auth_notifier.dart';
-import 'package:cts_poc/widgets/loading_indicator.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import '../../auth/controller/auth_notifier.dart';
+import '../../../widgets/loading_indicator.dart';
 
 class Home extends StatelessWidget {
   const Home({Key? key}) : super(key: key);
