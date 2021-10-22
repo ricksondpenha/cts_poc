@@ -6,7 +6,7 @@ class HomeDesktop extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     Size size = MediaQuery.of(context).size;
-    bool _isBluetoothOn = false;
+    //bool _isBluetoothOn = false;
     return Scaffold(
 /*      appBar: AppBar(
         title: const Text('Desktop (Web)'),
@@ -22,7 +22,9 @@ class HomeDesktop extends StatelessWidget {
           children: <Widget>[
             Container(
               margin: const EdgeInsets.all(30),
-              padding: const EdgeInsets.all(5),
+              //padding: const EdgeInsets.fromLTRB(left, top, right, bottom),
+              padding: const EdgeInsets.all(10),
+              //padding: const EdgeInsets.fromLTRB(20, 0, 0, 0),
               decoration: BoxDecoration(
                   color: Colors.white,
                   borderRadius: BorderRadius.circular(46),
@@ -34,6 +36,51 @@ class HomeDesktop extends StatelessWidget {
                   ]),
               child: Row(
                 children: <Widget>[
+                  IconButton(
+                    icon: const Icon(Icons.flight),
+                    iconSize: 24,
+                    color: Colors.green,
+                    tooltip: "Flight",
+                    onPressed: () {
+                      print("Roshan");
+                    },
+                  ),
+                  IconButton(
+                    icon: const Icon(Icons.flight),
+                    iconSize: 24,
+                    color: Colors.blue,
+                    tooltip: "Flight",
+                    onPressed: () {
+                      print("Roshan");
+                    },
+                  ),
+                  IconButton(
+                    icon: const Icon(Icons.flight),
+                    iconSize: 24,
+                    color: Colors.black,
+                    tooltip: "Flight",
+                    onPressed: () {
+                      print("Roshan");
+                    },
+                  ),
+                  IconButton(
+                    icon: const Icon(Icons.flight),
+                    iconSize: 24,
+                    color: Colors.orange,
+                    tooltip: "Flight",
+                    onPressed: () {
+                      print("Roshan");
+                    },
+                  ),
+                  IconButton(
+                    icon: const Icon(Icons.flight),
+                    iconSize: 24,
+                    color: Colors.pink,
+                    tooltip: "Flight",
+                    onPressed: () {
+                      print("Roshan");
+                    },
+                  ),
                   IconButton(
                     icon: const Icon(Icons.flight),
                     iconSize: 24,
@@ -64,31 +111,13 @@ class HomeDesktop extends StatelessWidget {
                   ),
                 ],
               ),
-            )
+            ),
+            Container(
+              child: Text("Working on It"),
+            ),
           ],
         ),
       ),
     );
   }
 }
-/*
- const Image(
-        image: AssetImage('assets/img/backgroundimage.png'),
-        alignment: Alignment.center,
-        height: double.infinity,
-        width: double.infinity,
-        fit: BoxFit.fill,
-      )
-*/
-
-/*
-IconButton(
-                    icon: const Icon(Icons.flight),
-                    iconSize: 24,
-                    color: Colors.pink,
-                    tooltip: "Flight",
-                    onPressed: () {
-                      print("Roshan");
-                    },
-                  )
-*/
