@@ -16,7 +16,8 @@ class HomeDesktop extends StatelessWidget {
         width: size.width,
         decoration: const BoxDecoration(
             image: DecorationImage(
-                image: AssetImage("assets/img/backgroundimage.png"),
+                image: NetworkImage(
+                    "https://i.picsum.photos/id/1063/4867/3215.jpg?hmac=-ksdmOruOUma2z6ENQo9Yqp9T7lsnokLo8SFfAt-UNU"),
                 fit: BoxFit.cover)),
         child: Column(
           children: <Widget>[
