@@ -22,7 +22,7 @@ class HomeDesktop extends StatelessWidget {
         child: Column(
           children: <Widget>[
             Container(
-              margin: const EdgeInsets.all(30),
+              margin: const EdgeInsets.all(31),
               //padding: const EdgeInsets.fromLTRB(left, top, right, bottom),
               padding: const EdgeInsets.all(10),
               //padding: const EdgeInsets.fromLTRB(20, 0, 0, 0),
