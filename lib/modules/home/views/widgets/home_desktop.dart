@@ -7,9 +7,9 @@ class HomeDesktop extends StatelessWidget {
   Widget build(BuildContext context) {
     Size size = MediaQuery.of(context).size;
     return Scaffold(
-/*      appBar: AppBar(
+      appBar: AppBar(
         title: const Text('Desktop (Web)'),
-      ),*/
+      ),
       body: SingleChildScrollView(
         child: Column(
           children: <Widget>[
