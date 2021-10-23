@@ -6,7 +6,6 @@ class HomeDesktop extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     Size size = MediaQuery.of(context).size;
-    //bool _isBluetoothOn = false;
     return Scaffold(
 /*      appBar: AppBar(
         title: const Text('Desktop (Web)'),
