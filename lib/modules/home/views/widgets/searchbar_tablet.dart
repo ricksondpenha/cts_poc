@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-
 import 'search_item.dart';
 
 class SearchbarTablet extends StatelessWidget {

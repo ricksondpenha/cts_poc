@@ -1,5 +1,5 @@
-import 'package:cts_poc/widgets/responsive.dart';
 import 'package:flutter/material.dart';
+import '../../../widgets/responsive.dart';
 import 'widgets/searchbar.dart';
 import 'widgets/custom_appbar.dart';
 
