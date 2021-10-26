@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
+
 import '../../../widgets/responsive.dart';
-import 'widgets/searchbar.dart';
 import 'widgets/custom_appbar.dart';
+import 'widgets/searchbar.dart';
 
 class Home extends StatelessWidget {
   const Home({Key? key}) : super(key: key);
@@ -57,6 +58,7 @@ class Home extends StatelessWidget {
                     ],
                   ),
                 ),
+                //footer Connection
               ],
             ),
           ),
