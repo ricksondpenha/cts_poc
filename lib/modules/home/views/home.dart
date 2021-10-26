@@ -1,3 +1,4 @@
+import 'package:cts_poc/modules/home/views/widgets/footer/footer.dart';
 import 'package:flutter/material.dart';
 
 import '../../../widgets/responsive.dart';
@@ -58,8 +59,11 @@ class Home extends StatelessWidget {
                     ],
                   ),
                 ),
-
-                //footer Connection
+                // ignore: sized_box_for_whitespace, avoid_unnecessary_containers
+                Container(
+                  width: double.infinity,
+                  child: const Footer(),
+                ) //footer Connection
               ],
             ),
           ),
