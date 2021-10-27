@@ -1,6 +1,5 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:hexcolor/hexcolor.dart';
 
 class mobile_footer extends StatelessWidget {
   const mobile_footer({Key? key}) : super(key: key);
@@ -8,9 +7,7 @@ class mobile_footer extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      //height: MediaQuery.of(context).size.height,
-
-      color: HexColor("#313741"),
+      color: const Color(0xFF313741),
       child: Column(
         children: <Widget>[
           Container(
