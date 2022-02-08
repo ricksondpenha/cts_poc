@@ -1,0 +1,4 @@
+enum TravelType {
+  leisure,
+  business,
+}

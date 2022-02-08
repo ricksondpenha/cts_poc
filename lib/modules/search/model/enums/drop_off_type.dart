@@ -1,0 +1,4 @@
+enum DropOffType {
+  oneWay,
+  returnTrip,
+}

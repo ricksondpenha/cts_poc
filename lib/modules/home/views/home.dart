@@ -1,6 +1,4 @@
-import 'package:flutter/material.dart';
-import '../../../widgets/responsive.dart';
-import 'widgets/searchbar.dart';
+import 'package:cts_poc/core.dart';
 import 'widgets/custom_appbar.dart';
 
 class Home extends StatelessWidget {
